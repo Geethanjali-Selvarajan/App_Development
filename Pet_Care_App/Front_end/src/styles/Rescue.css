@@ -1,0 +1,71 @@
+.rescue-container {
+  padding: 20px;
+  background-color: #f3e5f5; 
+  color: #4a148c;
+}
+.rescue{
+  margin-top: 40px;
+  margin-bottom: 40px;
+
+   border-radius: 25px;
+}
+.rescue-paper {
+  padding: 20px;
+}
+
+.rescue-image {
+  width: 800px;
+  max-height: 500px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.rescue-heading {
+  margin-top: 50px;
+  font-weight: bold;
+  color: #4a148c; 
+}
+
+.report-section, .form-section {
+  margin-top: 20px;
+}
+
+.step {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+.step strong {
+  margin-right: 10px;
+}
+
+.report-form-container {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #ffffff; 
+  border: 1px solid #4a148c; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.report-form .MuiTextField-root {
+  margin-bottom: 20px;
+}
+
+.report-form .MuiButton-containedSuccess {
+  background-color: #4a148c;
+  color: white;
+}
+
+.report-form .MuiButton-containedSuccess:hover {
+  background-color: #6a1b9a;
+}
+
+.report-form .MuiButton-containedSuccess:focus {
+  outline: 2px solid #ab47bc;
+}
+
+.MuiAlert-root {
+  margin-top: 20px;
+}

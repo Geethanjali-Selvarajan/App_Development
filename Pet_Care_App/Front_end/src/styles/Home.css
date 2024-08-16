@@ -1,0 +1,149 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.home {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.headerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 0 20px;
+  position: relative;
+  z-index: 1;
+}
+
+.headerContainer h1 {
+  font-size: 60px;
+  margin: 0 0 15px;
+}
+
+.headerContainer p {
+  font-size: 30px;
+  font-weight: lighter;
+  margin: 0 0 20px;
+}
+
+.headerContainer button {
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 50px;
+  width: 180px;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.headerContainer button:hover {
+  background-color: #07090a;
+  color: white;
+  transition: 0.3s ease-in;
+}
+
+.aboutUsSection {
+  background-color: #f2f2f2; 
+  padding: 50px 20px; 
+  text-align: center; 
+  border-radius: 8px; 
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
+  margin-top: 50px; 
+  margin-bottom: 50px; 
+}
+
+.aboutUsSection h5 {
+  font-size: 36px;
+  margin-bottom: 20px;
+ 
+  color:rgb(62, 0, 62);
+}
+
+.aboutUsSection p {
+  font-size: 18px;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  margin-bottom: 20px;
+  color:purple;
+}
+
+.grid-row {
+
+ margin-bottom: 100px;
+}
+
+.grid-row > .MuiGrid-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.service-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+ 
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 12px 24px rgba(128, 0, 128, 0.532);
+}
+
+.service-card-content {
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: hsla(0, 0%, 95%, 0.823); 
+  color:purple;
+}
+.service-card-title{
+  color:rgb(55, 0, 55);
+}
+@media (max-width: 768px) {
+  .headerContainer h1 {
+    font-size: 40px;
+  }
+
+  .headerContainer p {
+    font-size: 20px;
+  }
+
+  .headerContainer button {
+    font-size: 16px;
+    width: 150px;
+  }
+
+  .aboutUsSection {
+    padding: 30px 10px;
+  }
+
+  .aboutUsSection h5 {
+    font-size: 28px;
+  }
+
+  .aboutUsSection p {
+    font-size: 16px;
+  }
+}

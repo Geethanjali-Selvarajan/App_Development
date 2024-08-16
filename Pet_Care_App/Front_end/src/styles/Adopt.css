@@ -1,0 +1,76 @@
+.adopt-container {
+  padding: 20px;
+  background-color: #f3e5f5; 
+  color: #4a148c;
+  margin-top: 50px;
+}
+
+.adopt-paper {
+  padding: 20px;
+  background-color: #f3e5f5; 
+}
+
+.adopt-heading {
+  margin-top: 20px;
+  font-weight: bold;
+  color: #4a148c;
+}
+
+.adoptable-pets-section {
+  margin-top: 20px;
+}
+.pet-card{
+  margin-left:10px;
+}
+
+.adoptable-pets-row {
+  display: flex;
+  overflow-x: auto;
+  padding: 10px 0;
+  gap: 20px;
+}
+
+.adoptable-pets-row .pet-card {
+  flex: 0 0 auto;
+  width: 300px;
+  margin: 0 10px; /* Add space between cards */
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.adoptable-pets-row .adopt-button {
+  margin-top: 10px;
+  background-color: #7b1fa2; 
+  color: white;
+}
+
+.adoptable-pets-row .adopt-button:hover {
+  background-color: #4a148c; 
+}
+
+.adoption-steps, .form-section {
+  margin-top: 20px;
+}
+
+.step {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+.step strong {
+  margin-right: 10px;
+}
+
+.adoption-form .MuiTextField-root {
+  margin-bottom: 20px;
+}
+
+.adoption-form .MuiButton-containedSuccess {
+  background-color: #7b1fa2;
+  color: white;
+}
+
+.adoption-form .MuiButton-containedSuccess:hover {
+  background-color: #4a148c;
+}

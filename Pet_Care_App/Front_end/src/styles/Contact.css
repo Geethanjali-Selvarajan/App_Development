@@ -1,0 +1,42 @@
+
+  .contact-container {
+    margin-top: 60px;
+    padding: 20px;
+    background-color:  #f1f1f1;
+    color:  purple;
+    border-radius: 10px;
+    margin-bottom:60px ;
+  }
+  
+  .contact-container .MuiTypography-h2 {
+    font-weight: bold;
+    color:  purple;
+  }
+  
+  .contact-container .MuiTypography-h5 {
+    margin-bottom: 20px;
+    color:  purple;
+  }
+  
+  .contact-details {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .contact-details .MuiTypography-h4 {
+    color:  purple;
+    margin-bottom: 16px;
+  }
+  
+  .contact-details .MuiTypography-body1 {
+    color:  purple;
+    margin-bottom: 8px;
+  }
+  
+  .contact-details .contact-icon {
+    color:  #edd8f6;
+  }
+  

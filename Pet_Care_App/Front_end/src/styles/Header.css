@@ -1,0 +1,46 @@
+
+.home-header {
+    background-color: #e0bbf3; 
+    color: white;
+  }
+  
+  .navigation-menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navigation-menu li {
+    margin: 0 20px;
+  }
+  
+  .navigation-menu li a {
+    text-decoration: none;
+    color: white; 
+  }
+  
+  .active {
+    color: black !important;
+    font-weight: bold !important;
+  }
+  
+
+  .mobile-navigation {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .mobile-navigation li {
+    margin-top: 20px;
+  }
+  
+  .mobile-navigation li a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: black;
+  }
+  
